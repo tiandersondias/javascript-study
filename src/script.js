@@ -43,11 +43,11 @@ document.querySelector("form").onsubmit = () => {
     let counter = localStorage.getItem("#click");
     counter++;
     document.querySelector("h1").innerHTML = counter;
-    localStorage.setItem("#clickCt", counter);
+    localStorage.setItem("#clickCount", counter);
   }
   document.addEventListener("DOMContentLoaded", function () {
     document.querySelector("h1").innerHTML = localStorage.getItem("#click");
-    document.querySelector("#clickBt").onclick = count;
+    document.querySelector("#clickButton").onclick = count;
     //setInterval(clickCountElement, 1000);
   });
 };
