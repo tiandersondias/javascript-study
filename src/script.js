@@ -38,16 +38,18 @@ document.querySelector("form").onsubmit = () => {
 
   // Stop form from submitting
   return false;
-  //Counter Function
-  function count() {
-    let counter = localStorage.getItem("#click");
-    counter++;
-    document.querySelector("h1").innerHTML = counter;
-    localStorage.setItem("#clickCount", counter);
-  }
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelector("h1").innerHTML = localStorage.getItem("#click");
-    document.querySelector("#clickButton").onclick = count;
-    //setInterval(clickCountElement, 1000);
-  });
+  
 };
+//Counter Seconds Function
+/**
+ * Function 
+ */
+function count() {
+  let counter = localStorage.getItem("clicks");
+  counter++;
+  document.querySelector("#counter").innerHTML = counter;
+  localStorage.setItem("clicks", counter);
+}
+document.addEventListener("DOMContentLoaded", function () {
+    setInterval(count, 1000);
+});
