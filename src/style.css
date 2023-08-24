@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+dropdown {
+  font-family: Arial Black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#clickText {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+#clickButton {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
