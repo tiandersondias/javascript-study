@@ -15,7 +15,7 @@ You could either put your JavaScript inside a `<script>` tag in your HTML or cre
 
 The name of the file could be anything. Mine is `script.js`, as long as it ends with `.js`.
 
-## Variables
+# Variables
 Variables are pieces of data that can be passed around and manipulated.
 
 Declare a variable (create)
@@ -63,7 +63,7 @@ var person = {
 };
 ```
 
-## Functions
+# Functions
 Functions are pizza! 🍕 We use functions to isolate repetitive work so we can delegate the work to it later instead of repeating ourselves.
 
 Declare a function (create)
