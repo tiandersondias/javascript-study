@@ -23,15 +23,15 @@ Variables are pieces of data that can be passed around and manipulated.
 Declare a variable (create)
 
 ```js
-var name = "Sina";
-var age = 12;
+var name = "Jessica";
+var age = 31;
 ```
 
 Reassign the value of a variable
 
 ```js
-var name = "Sina";
-name = "Jack";
+var name = "Jessica";
+name = "Jessicat";
 ```
 
 ### Variable types
@@ -45,7 +45,7 @@ var age = 10;
 String
 
 ```js
-var name = "Sina";
+var name = "Jessica";
 ```
 
 ###### (Remember: string value must be in 'single' or "double" quotes)
@@ -67,8 +67,8 @@ Object
 
 ```js
 var person = {
-  name: "Sina",
-  age: 33,
+  name: "Jessica",
+  age: 31,
   coder: true,
   friends: ["Jim", "Karen"],
 };

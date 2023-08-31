@@ -5,20 +5,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Click Counter App</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+  
+  <div>
+    <p>
   <h1 id="message">You've clicked <span id="clickCount">0</span> times.</h1>
   <button id="clickButton">Click Count</button>
-
-  <h1 id="inventory">Inventory System</h1>
+</p>  
+</div>
+  
   <div>
+    <P>
+  <h1 id="inventory">Inventory System</h1>
+</P>
     <select class="dropdown">
       <option value="black">Inventory</option>
       <option value="red">Marketing</option>
       <option value="blue">Service Desk</option>
       <option value="green">Accounting</option>
     </select>
+  
+  </div>
+
   </div>
   <h2>Form</h2>
   <ul id="tasks">
@@ -31,6 +42,22 @@
   <div id="container">
     <p id="clickText">You've<span id="counter">0</span> seconds.</p>
   </div>
+
+  <main id="uiButtons">
+    <h1>UI Buttons...</h1>
+    
+    <div id="buttons">
+      <a href="#" class="btn btn-solid effect-scale">Click me !</a>
+      <a href="#" class="btn btn-outline effect-up">Hover me</a>
+      
+      <a href="#" class="btn btn-icon effect-scale effect-icon"><i class="fas fa-sign-in-alt"></i><span>Login</span></a>
+      <a href="#" class="btn btn-wow">Confirm</a>
+      
+    </div>
+    
+  </main>
+  
+  <a href="https://tommarx.fr" target="_blank" id="my-website">Check my <b>website</b> !</a>
 </body>
 <script src="script.js"></script>
 </html>
